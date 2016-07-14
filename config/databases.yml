@@ -1,0 +1,46 @@
+#all:
+#  propel:
+#    class:          sfPropelDatabase
+#    param:
+#      dsn:          mysql://root@localhost/dbname
+
+all:
+  sfguard:
+    class:    sfPropelDatabase
+    param:
+      phptype:  mysql
+      persistent: true
+      host:     localhost
+      database: snapps_sfguard
+      username: root
+      password: gemini35orion   
+      
+  hr:
+    class:    sfPropelDatabase
+    param:
+      phptype:  mysql
+      persistent: true
+      host:     localhost
+      database: snapps_hr
+      username: root
+      password: gemini35orion
+          
+  iso:
+    class:    sfPropelDatabase
+    param:
+      phptype:  mysql
+      persistent: true
+      host:     localhost
+      database: snapps_iso
+      username: root
+      password: gemini35orion
+      
+  test:
+    class:    sfPropelDatabase
+    param:
+      phptype:  mysql
+      persistent: true
+      host:     localhost
+      database: snapps_test
+      username: root
+      password: gemini35orion

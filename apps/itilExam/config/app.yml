@@ -1,0 +1,4 @@
+all:
+    apps_name:      ITIL Exam     
+    page_heading:   ITIL V3 Foundation Exam Questionaire
+    menu_name:      Itil         

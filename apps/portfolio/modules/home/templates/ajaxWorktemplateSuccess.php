@@ -1,0 +1,1 @@
+<?php include_partial('worktemplateDetail', array('worktemp_no'=>$sf_params->get('worktemp_no')) ) ?>
